@@ -49,7 +49,15 @@ header{
 	padding-left: 55px;
 	padding-right: 55px;
 	margin-top: 33px;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
 }
+
+.header-button:hover {
+	box-shadow: none;
+}
+
 
 small {
 	font-size: 12px;
@@ -80,6 +88,7 @@ small {
 	background-color: #ffffff;
 	padding-top: 29px;
 	padding-bottom: 44px;
+	border-radius: 4px;
 }
 
 .portfolio-title, .portfolio-subtitle {
@@ -179,6 +188,14 @@ footer {
 	background-color: transparent;
 	color: white;
 	padding: 12px 40px;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+
+.footer-button:hover {
+	background-color: white;
+	color: #3a7dfd ;
 }
 
 .footer-cta {

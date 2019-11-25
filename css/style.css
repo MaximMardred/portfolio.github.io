@@ -57,6 +57,10 @@ header{
 	transition: 0.2s;
 }
 
+
+
+
+
 .header-button:hover {
 	box-shadow: none;
 }
@@ -195,6 +199,17 @@ footer {
 	-o-transition: 0.2s;
 	transition: 0.2s;
 }
+
+
+
+@media(max-width: 768px) {
+	.footer-button {
+		width: 160px;
+	   height: 38px;
+	}
+
+
+
 
 .footer-button:hover {
 	background-color: white;

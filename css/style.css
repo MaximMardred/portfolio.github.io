@@ -186,27 +186,22 @@ footer {
 }
 
 .footer-button {
+
 	text-decoration: none;
 	display: inline-block;
 	border-radius: 24px;
 	border: 1px solid #ffffff;
-	width: 165px;
-	height: 48px;
+	width: 164px;
+	height: 37px;
 	background-color: transparent;
 	color: white;
 	padding: 12px 40px;
 	-webkit-transition: 0.2s;
 	-o-transition: 0.2s;
 	transition: 0.2s;
+
 }
 
-
-
-@media(max-width: 768px) {
-	.footer-button {
-		width: 160px;
-	   height: 38px;
-	}
 
 
 
